@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>IETE || BIT MESRA</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="item"><a href="#">Events</a></div>
+        <div class="item"><a href="#">Contact</a></div>
+        <div class="item"><a href="#">Info</a></div>
+        <div class="item"><a href="../../">Home</a></div>
+    </nav>
+
+    <div class="club-name">
+        <div class="icon"><img src="./img/IETE.png" alt="Logo"></div>
+        <div class="name"><h1>THE INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS</h1></div>
+    </div>
+    <div class="club-details">
+        <div class="info">
+            <h2>CLUB INFO</h2>
+            <p>The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognised professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. Founded in 1953, it serves more than 60,000 members through various centres, whose number is 64, spread all over India and abroad.</p>
+        </div>
+        <div class="details">
+            <h2>Club Requirements and Joining Procedure</h2>
+            <p>The following are the requirements and the procedure to join our club:</p>
+            <ol>
+                <li>Requirement 1.</li>
+                <li>Requirement 2.</li>
+                <li>Requirement 3.</li>
+            </ol>
+        </div>
+    </div>
+    <div class="ne">
+        <h2>Notable Events</h2>
+        <ol class="events">
+            <li>Detective David</li>
+            <li>HacktoberFest</li>
+        </ol>
+    </div>
+    <div class="footer">
+        Copyright © 2023 by IETE Students' Chapter, BIT Mesra | All Rights Reserved.
+    </div>
+</body>
+</html>
