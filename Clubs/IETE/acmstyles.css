@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d11;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #1d1d11;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.item {
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.item a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item:hover {
+    background-color: white;
+}
+
+a:hover {
+    color: #323946;
+}
+
+.club-name {
+    background-color: rgba(166, 4, 206, 0.774);
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.icon img {
+    max-width: 100%;
+}
+
+.name {
+    margin: 20px;
+}
+
+.name h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.club-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.info h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.details {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.details h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.details h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.ne {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.ne h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+/* Style for the Club Requirements and Joining Procedure section */
+.club-details .details {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+    overflow: auto;
+}
+
+.club-details h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.club-details p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.club-details ol {
+    padding-left: 20px;
+}
+
+.club-details ol li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: #1d1d11;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /*position: absolute;*/
+    bottom: 0;
+}
