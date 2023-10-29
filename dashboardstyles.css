@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.club-events,
+.club-notifications {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.club-events ul,
+.club-notifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.club-events li,
+.club-notifications li {
+    margin-bottom: 10px;
+}
+
+.club-events a,
+.club-notifications a {
+    text-decoration: none;
+    color: black;
+}
+
+.club-events h2,
+.club-notifications h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
