@@ -115,5 +115,24 @@ body {
     padding: 10px 0;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.social-media a {
+    margin: 5px;
+}
 
+.contact-info p,
+.address p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
