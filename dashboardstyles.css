@@ -1,37 +1,55 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     text-align: center;
     padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.dashboard-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .club-events,
 .club-notifications {
-    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 20px;
+    width: 45%;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .club-events ul,
 .club-notifications ul {
-    list-style-type: none;
     padding: 0;
 }
 
 .club-events li,
 .club-notifications li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .club-events a,
 .club-notifications a {
     text-decoration: none;
-    color: black;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .club-events h2,
 .club-notifications h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
 }
